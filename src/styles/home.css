@@ -1,0 +1,69 @@
+/* navbar.css */
+
+.navbar {
+  background-color: #387ADF;
+  padding: 1rem;
+}
+.logo1{
+  display: flex;
+  flex-direction: row;
+  gap: 12rem;
+}
+.logo {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-left:20%;
+}
+/* styles.css */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #3498db; /* Button border color */
+  color: #3498db; /* Button text color */
+  border-radius: 4px; /* Button border radius */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.button:hover {
+  background-color: #3498db; /* Hover background color */
+  color: #ffffff; /* Hover text color */
+}
+
+.button:active {
+  background-color: #2980b9; /* Active background color */
+  border-color: #2980b9; /* Active border color */
+  color: #ffffff; /* Active text color */
+}
+
+nav-link {
+  color: #F9E8C9;
+  transition: color 0.3s ease;
+  gap:2rem;
+}
+
+.nav-link:hover {
+  color: #cbd5e0;
+}
+.profile-icon{
+  margin-left: 100%;
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+.profile-icon:hover{
+  /* Change the background color on hover */
+  color: #ffffff; /* Change the text color on hover */
+  border-color: #3498db;
+}
+
